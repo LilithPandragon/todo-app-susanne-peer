@@ -2,8 +2,9 @@ apiVersion: v1
 kind: ConfigMap
 metadata:
   name: todo-config
-  namespace: rpailer-dev
+  namespace: lilith-pandragon-dev
 data:
   SERVER_URL: "http://127.0.0.1:3000"
-  CLOUDANT_URL: "https://36368344-a692-4d01-bdb2-2e6d0f5f1d42-bluemix.cloudantnosqldb.appdomain.cloud"
-  CLOUDANT_DB_NAME: "todo-db"
+  CLOUDANT_URL: "https://19ab2cdf-85ac-4ed6-99c7-5566ab34c0d6-bluemix.cloudantnosqldb.appdomain.cloud"
+  CLOUDANT_DB_NAME: "todo-db-rp"
+
